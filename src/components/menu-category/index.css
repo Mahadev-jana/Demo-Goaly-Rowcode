@@ -1,0 +1,23 @@
+.topmenu {
+    display: flex !important;
+    justify-content: center !important;
+    margin-bottom: 3em !important;
+}
+.topmenu-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.topmenu a {text-align: center}
+.topmenu-link a img {
+    width: 100%;
+    margin-bottom: .5em;
+    height: 100%;
+    object-fit: contain;
+    
+}
+.text-purple{
+    color: blueviolet;
+}

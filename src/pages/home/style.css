@@ -1,0 +1,53 @@
+.intro {
+  border-radius: 0.75rem;
+  border-color: transparent;
+  background-image: url("../../assetsStaging/img/popUp/bg-intro.jpg");
+  background-position: center top;
+}
+
+.intro-info {
+  background-color: #4B0054;
+  color: #FFFFFF;
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
+.intro-desc {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  min-height: 120px;
+}
+
+.intro-title {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.intro-dots {
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding: 0;
+  text-align: center;
+}
+
+.intro-dots li {
+  list-style: none;
+  display: inline-block;
+  margin: 3px;
+}
+
+.intro-dots li .dots {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.intro-dots li.active .dots {
+  opacity: 1;
+}
+

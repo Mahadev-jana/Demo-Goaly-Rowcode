@@ -1,0 +1,110 @@
+.my-team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1em;
+    margin-top: -3.75em;
+}
+.my-team span {
+    width: 25%;
+    font-size: 11pt;
+    text-align: center;
+}
+.my-team ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.my-team ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 .25em;
+    width: 23%;
+    height: 23%;
+}
+.my-team ul li img {
+    display: block;
+    background-color: lightgray;
+    margin-left: 29px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    width: 48px;
+
+
+}
+.my-team > a {
+    display: flex;
+    justify-content: center;
+    max-width: 15% !important;
+    max-height: 15% !important;
+}
+.my-team > a img {
+    height: 100%;
+    width: 100%;
+}
+.radius-1 {
+    border-radius: .5em;
+}
+.border {
+    border: 1px solid #D6CED9;
+}
+.bg-white {
+    background-color: white;
+}
+.favourit-club {
+    width: 57%;
+    display: flex;
+    align-items: center;
+}
+.ad-club-modal-club{
+  display:flex;
+  flex-direction: row;
+  background: rgb(237, 237, 237);
+  margin-bottom: 5px;
+}
+.ad-club-modal-club-img{
+   width: 15%;
+   margin:5px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.ad-club-modal-club-name{
+   width: 58%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.ad-club-modal-club-icons{
+    width: 15%;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+}
+.newAddClub{
+display: flex;
+justify-content: center;
+max-width: 100%!important;
+
+}
+
+.add-club-button{
+    color: white!important;
+    background: #6edb44;
+    display: flex;
+    align-items: center;
+    width: 42px;
+    height: 40px;
+    font-size: 32px;
+    font-weight: 100!important;
+    border-radius: 50%;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px
+}
+
+.styles_modal__gNwvD {
+    top:90px!important;
+}
