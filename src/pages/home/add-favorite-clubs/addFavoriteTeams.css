@@ -106,5 +106,10 @@ max-width: 100%!important;
 }
 
 .styles_modal__gNwvD {
-    top:90px!important;
+    top: 53px!important;
+    width: 100%;
+}
+.styles_modal__gNwvD.styles_modalCenter__L9F2w {
+    height: auto!important;
+    
 }

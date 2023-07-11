@@ -155,13 +155,13 @@ const AddFavoriteClubWithLogin = React.memo(withRouter(({ history }) => {
                 <div className="block">
                     <div className="my-team bg-white border radius-1 row">
                         <span><strong>Favorite Club</strong></span>
-                        <ul>
+                        <ul onClick={showAllClubs}>
                             {clubs.slice(0, 3).map((club, key) => (
-                                <li style={{ marginLeft: "-10px" }} key={key} onClick={() => history.push(`/club-info/${club.id}`)}><img src={club.badge} alt="" /></li>
+                                <li style={{ marginLeft: "-10px" }} key={key} ><img src={club.badge} alt="" /></li>
                             ))}
                         </ul>
                         {/* <a onClick={showAllClubs}><img src={addButton} alt="" /></a> */}
-                        <a onClick={showAllClubs} className='add-club-button'>+</a>
+                        <a onClick={() => setOpenAddModal(true)} className='add-club-button'>+</a>
                     </div>
                 </div>}
 
@@ -179,9 +179,9 @@ const AddFavoriteClubWithLogin = React.memo(withRouter(({ history }) => {
                             {/* <button onClick={showThreeClubs} className="styles_closeButton__20ID4" style={{ top: '173px', right: '33px' }}><svg class="styles_closeIcon__1QwbI" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 36 36"><path d="M28.5 9.62L26.38 7.5 18 15.88 9.62 7.5 7.5 9.62 15.88 18 7.5 26.38l2.12 2.12L18 20.12l8.38 8.38 2.12-2.12L20.12 18z"></path></svg></button> */}
                         </div>
 
-                        <div className='newAddClub'>
+                        {/* <div className='newAddClub'>
                             <img onClick={() => setOpenAddModal(true)} style={{ height: '52px', marginBottom: "16px", width: "52px" }} src={imgAddClub} alt="" />
-                        </div>
+                        </div> */}
                         <div>
                             <div style={{ fontWeight: 700, fontSize: 15, margin: '0px 0px 10px 12px', textAlign: 'center' }}> Your Favourite Clubs</div>
 
